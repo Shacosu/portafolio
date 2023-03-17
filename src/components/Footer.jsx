@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="h-24 grid grid-cols-12 place-items-center bg-black mt-8">
+    <footer className="h-20 grid grid-cols-12 place-items-center mt-8 bg-gradient-to-r from-gray-800 via-gray-600 to-gray-800">
         <div className="col-span-4">
             Footer start
         </div>

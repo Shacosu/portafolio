@@ -9,7 +9,7 @@ export default function Navbar() {
 				/>
 				<h3 className="text-3xl">Pablo.js</h3>
 			</div>
-			<div className="flex gap-4 hidden md:block">
+			<div className=" gap-2 hidden md:flex">
 				<button className="hover:text-gray-300">{"<Sobre mi />"}</button>
                 <button className="hover:text-gray-300">{"<Github />"}</button>
                 <button className="hover:text-gray-300">{"<LinkedIn />"}</button>

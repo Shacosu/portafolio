@@ -1,15 +1,26 @@
-import { useState } from 'react';
+import { useState } from "react";
+import Typewriter from "typewriter-effect";
 import Modal from "./Modal";
 
 export default function IntroLeft() {
-    const [show, setShow] = useState(false);
+	const [show, setShow] = useState(false);
 
-    const handleClose = () => setShow(false);
-    const handleShow = () => setShow(true);
+	const handleClose = () => setShow(false);
+	const handleShow = () => setShow(true);
 	return (
 		<div className="flex flex-col">
-			<h2 className="text-3xl">Bienvenido a mi portafolio</h2>
-			<p className="text-green-100">
+			{/* <h2 className="text-3xl">Bienvenido a mi portafolio</h2> */}
+			<h2 className="text-3xl">
+				<Typewriter
+					onInit={(typewriter) => {
+						typewriter
+							.typeString("Bienvenido a mi portafolio")
+							.pauseFor(1000)
+							.start();
+					}}
+				/>
+			</h2>
+			<p className="text-lg">
 				Mi nombre es Pablo Espinoza, Ingeniero en ejecución informática y <br /> soy
 				desarrollador de software.
 			</p>
@@ -28,7 +39,10 @@ export default function IntroLeft() {
 					</svg>
 					<span>Descargar CV</span>
 				</a>
-				<button className="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded" onClick={handleShow}>
+				<button
+					className="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded"
+					onClick={handleShow}
+				>
 					Conocer Mas
 				</button>
 			</div>
