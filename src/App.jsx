@@ -1,6 +1,7 @@
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import About from "./views/About";
+import Calendly from "./views/Calendly";
 import Introduction from "./views/Introduction";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -11,6 +12,7 @@ function App() {
       <main className="container mx-auto h-full">
         <Introduction />
         <About />
+        <Calendly />
       </main>
       <Footer />
     </div>

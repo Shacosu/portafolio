@@ -1,0 +1,16 @@
+Conocimientos en:
+React,
+Next.js version < 13,
+Node.js,
+Express.js,
+Javascript - HTML - CSS,
+Sql Server (MSSQL),
+SQL,
+MYSQL,
+TAILWIND,
+BOOTSTRAP 4 - 5,
+Axios,
+Git - Github
+API REST,
+Redux Toolkit,
+jQuery
