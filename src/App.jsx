@@ -12,7 +12,6 @@ function App() {
       <main className="container mx-auto h-full">
         <Introduction />
         <About />
-        <Calendly />
       </main>
       <Footer />
     </div>
